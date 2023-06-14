@@ -14,3 +14,25 @@
 .carousel-caption p{
     color: #ffff;
 }
+.rowposter{
+    display:flex;
+    overflow-y:hidden;
+    overflow-x: scroll;
+}
+.rowing{
+    max-height: 200px;
+    object-fit: contain;
+    margin-right: 7px;
+}
+
+.rowing:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.largeposter {
+    max-height: 300px;
+}
+.rowposter::-webkit-scrollbar{
+    display: none;
+}
