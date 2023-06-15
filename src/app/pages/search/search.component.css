@@ -1,14 +1,18 @@
-button{
+button {
     background-color: #E50914;
     color: #ffff;
 }
-button:hover{
-    background-color:#E50914 ;
+
+button:hover {
+    background-color: #E50914;
     color: #ffff;
 }
-img{
+
+img {
     width: 100%;
+    cursor: pointer
 }
-h1{
+
+h5 {
     color: #ffff;
 }
